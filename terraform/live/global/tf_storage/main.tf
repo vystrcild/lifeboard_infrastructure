@@ -12,8 +12,8 @@ terraform {
   TF needs to create storage first and then setup remote backend
   by "terraform init"  */
   backend "azurerm" {
-    resource_group_name  = "tfstate"
-    storage_account_name = "tfstate"
+    resource_group_name  = "lifeboardtfstate"
+    storage_account_name = "lifeboardtfstate"
     container_name       = "data"
     key                  = "tf_storage.tfstate"
   }

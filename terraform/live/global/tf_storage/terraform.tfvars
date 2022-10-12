@@ -1,3 +1,3 @@
 location     = "westeurope"
 environment  = "dev"
-project_name = "global"
+project_name = "lifeboard"
